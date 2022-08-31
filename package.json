@@ -1,0 +1,40 @@
+{
+  "name": "nonforget-test-app",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.18.0",
+    "@directus/sdk": "^9.14.2",
+    "@web3auth/solana-provider": "^1.0.0",
+    "@web3auth/web3auth": "1.0.0",
+    "axios": "^0.27.2",
+    "next": "12.1.6",
+    "next-auth": "^4.3.1",
+    "pg": "^8.7.3",
+    "react": "17.0.2",
+    "react-directus": "^0.0.2",
+    "react-dom": "17.0.2",
+    "react-query": "^3.30.0",
+    "sqlite3": "^5.0.11",
+    "uuid": "^8.3.2",
+    "web3": "^1.7.3",
+    "zustand": "^3.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.35",
+    "@types/react": "^17.0.39",
+    "autoprefixer": "^10.4.8",
+    "eslint": "8.16.0",
+    "eslint-config-next": "12.1.6",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8",
+    "typescript": "4.6.4"
+  }
+}
